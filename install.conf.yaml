@@ -26,6 +26,9 @@
       ~/.config/zsh/aliases:
           create: true
           path: config/zsh/aliases
+      ~/.mozilla/firefox/mdlsvensson/user.js:
+          create: true
+          path: mozilla/firefox/mdlsvensson/user.js
 
 - create:
       - ~/Files
