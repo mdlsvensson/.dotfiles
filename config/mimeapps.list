@@ -1,0 +1,8 @@
+[Default Applications]
+text/html=dev.zed.Zed.desktop
+text/xml=dev.zed.Zed.desktop
+image/png=feh.desktop
+image/jpeg=feh.desktop
+
+[Added Associations]
+image/x-xcursor=dev.zed.Zed.desktop;

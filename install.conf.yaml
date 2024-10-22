@@ -1,6 +1,40 @@
-- clean: ['~']
+- defaults:
+      link:
+          relink: true
+
+- clean: ["~"]
 
 - link:
-    ~/.zshenv: zshenv
+      ~/.zshenv: zshenv
+      ~/.config/mimeapps.list: config/mimeapps.list
+      ~/.config/user-dirs.dirs: config/user-dirs.dirs
+      ~/.config/alacritty/alacritty.toml:
+          create: true
+          path: config/alacritty/alacritty.toml
+      ~/.config/paru/paru.conf:
+          create: true
+          path: config/paru/paru.conf
+      ~/.config/picom/picom.conf:
+          create: true
+          path: config/picom/picom.conf
+      ~/.config/rofi/config.rasi:
+          create: true
+          path: config/rofi/config.rasi
+      ~/.config/zsh/.zshrc:
+          create: true
+          path: config/zsh/.zshrc
+      ~/.config/zsh/aliases:
+          create: true
+          path: config/zsh/aliases
 
+- create:
+      - ~/Files
+      - ~/Files/Downloads
+      - ~/Files/Music
+      - ~/Files/Videos
+      - ~/Files/Pictures
+      - ~/Repo
+      - ~/Games
 
+- shell:
+      - [git submodule update --init --recursive, Installing submodules]
