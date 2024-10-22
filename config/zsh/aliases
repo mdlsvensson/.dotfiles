@@ -2,5 +2,4 @@ alias cd="z";
 alias ls="eza -a --icons";
 alias lg="lazygit";
 alias sh-eval=''eval "$(ssh-agent -s)"'';
-alias cat="bat"
 alias zed="zeditor"
