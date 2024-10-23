@@ -36,6 +36,17 @@ function clone() {
   gh repo clone $url
 }
 
+function commit() {
+    msg="$1"
+
+    if [ $# -eq 0 ]; then
+      >&2 echo "No commit message provided"
+      return 1
+    fi
+
+    git commit -m $1
+}
+
 # function pkl() {
 #   if [ $# -eq 0 ]; then
 #     >&2 echo "No arguments provided"

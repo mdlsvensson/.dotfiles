@@ -3,3 +3,7 @@ alias ls="eza -a --icons";
 alias lg="lazygit";
 alias sh-eval=''eval "$(ssh-agent -s)"'';
 alias zed="zeditor"
+alias z.="zeditor ."
+alias b='buku --suggest'
+alias gs='git status'
+alias gc='git commit'

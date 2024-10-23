@@ -29,6 +29,9 @@
       ~/.mozilla/firefox/mdlsvensson/user.js:
           create: true
           path: mozilla/firefox/mdlsvensson/user.js
+      ~/.config/zed/settings.json:
+          create: true
+          path: config/zed/settings.json
 
 - create:
       - ~/Files
