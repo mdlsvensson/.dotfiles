@@ -29,7 +29,7 @@ function clone() {
   url="$1"
 
   if [ $# -eq 0 ]; then
-    >&2 echo "No arguments provided"
+    >&2 echo "No url provided"
     return 1
   fi
 
@@ -45,6 +45,17 @@ function commit() {
     fi
 
     git commit -m $1
+}
+
+function push() {
+    branch="$1"
+
+    if [ $# -eq 0 ]; then
+      >&2 echo "No branch name provided"
+      return 1
+    fi
+
+    git push -u origin $1
 }
 
 # function pkl() {
