@@ -36,3 +36,4 @@ bat
 rofi-calc
 buku
 awesome
+rofi-buku-git
