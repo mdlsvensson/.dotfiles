@@ -32,6 +32,9 @@
       ~/.config/zed/settings.json:
           create: true
           path: config/zed/settings.json
+      ~/.config/awesome/rc.lua:
+          create: true
+          path: config/awesome/rc.lua
 
 - create:
       - ~/Files
