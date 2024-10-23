@@ -1,4 +1,4 @@
-shell.program = "zsh"
+terminal.shell = "zsh"
 
 [window.padding]
 x = 10
