@@ -10,3 +10,6 @@ sudo pacman -S lutris alacritty flatpak dolphin-emu awesome pcmanfm nnn xclip au
 
 # AUR
 yay -S bottles protonup-qt gruvbox-plus-icon-theme gruvbox-dark-gtk protontricks buku rofi-buku-git
+
+# Remove KDE bloat
+sudo pacman -R konsole dolphin haruna kate kcalc mpv dolphin-plugins mpvqt okular
