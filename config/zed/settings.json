@@ -164,7 +164,7 @@
         "dock": "right",
         "default_width": 380
     },
-    "assistant": {
+    "agent": {
         "version": "2",
         "enabled": true,
         "button": true,
@@ -360,7 +360,8 @@
         "csv": true,
         "nix": true,
         "basher": true,
-        "pkl": true
+        "pkl": true,
+        "gdscript": true
     },
     // Different settings for specific languages.
     "languages": {
