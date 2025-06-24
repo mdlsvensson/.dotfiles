@@ -35,7 +35,7 @@
       ~/.config/awesome/rc.lua:
           create: true
           path: config/awesome/rc.lua
-      ~/.config/hypr/hyperland.conf:
+      ~/.config/hypr/hyprland.conf:
           create: true
           path: config/hypr/hyprland.conf
 
