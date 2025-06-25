@@ -361,7 +361,8 @@
         "nix": true,
         "basher": true,
         "pkl": true,
-        "gdscript": true
+        "gdscript": true,
+        "hyprlang": true
     },
     // Different settings for specific languages.
     "languages": {
