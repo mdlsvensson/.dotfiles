@@ -38,6 +38,12 @@
       ~/.config/hypr/hyprland.conf:
           create: true
           path: config/hypr/hyprland.conf
+      ~/.config/waybar/config.jsonc:
+          create: true
+          path: config/waybar/config.jsonc
+      ~/.config/waybar/style.css:
+          create: true
+          path: config/waybar/style.css
 
 - create:
       - ~/Files
