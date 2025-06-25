@@ -61,7 +61,8 @@ sudo pacman -S --noconfirm \
     hyprpolkitagent \
     qt5-wayland \
     qt6-wayland \
-    hyprpaper
+    hyprpaper \
+    waybar
 
 echo "Installing packages (yay)..."
 yay -S --noconfirm \
