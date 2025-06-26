@@ -62,7 +62,8 @@ sudo pacman -S --noconfirm \
     qt5-wayland \
     qt6-wayland \
     hyprpaper \
-    waybar
+    waybar \
+    deno
 
 echo "Installing packages (yay)..."
 yay -S --noconfirm \
