@@ -1,32 +1,37 @@
+/* Base styles for all elements */
 * {
     font-family:
         Mona Sans,
         Arial;
     font-size: 14px;
+    padding: 0;
+    margin: 0;
+    /* Transitions for interactive elements */
     transition:
         border 0.1s ease-in-out,
         color 0s ease-in-out;
-    padding: 0;
-    margin: 0;
 }
 
+/* Waybar container */
 #waybar {
     background: transparent;
     font-weight: 600;
 }
 
+/* Common styles for Waybar modules */
 #workspaces,
 #window,
 #tray,
 #clock {
     background-color: #282828;
-    padding: 4px 6px;
-    margin: 6px 8px 0 8px;
+    color: #ebdbb2;
     border-radius: 4px;
     border-width: 0px;
-    color: #ebdbb2;
+    margin: 6px 8px 0 8px;
+    padding: 4px 6px;
 }
 
+/* Specific module adjustments */
 #workspaces {
     padding-right: 2px;
 }
@@ -37,24 +42,37 @@
     font-style: italic;
 }
 
-#workspaces button {
-    margin-right: 4px;
-    color: #ebdbb2;
-    border-radius: 3px;
-    padding: 0px 4px;
+#tray {
+    margin-right: 0px;
 }
 
-#clock,
-#workspaces button {
+/* Override default padding for tray and clock for more spacing */
+#tray,
+#clock {
+    padding: 4px 10px;
+}
+
+#workspaces button,
+#clock {
     border: 2px solid transparent;
 }
 
+/* Workspace buttons within the workspaces module */
+#workspaces button {
+    color: #ebdbb2;
+    border-radius: 3px;
+    padding: 0px 4px;
+    margin-right: 4px;
+}
+
+/* Hover effects for clock and workspace buttons */
 #clock:hover,
 #workspaces button:hover {
     border: 2px solid #ebdbb2;
     text-shadow: none;
 }
 
+/* Active workspace button state */
 #workspaces button.active {
     color: #282828;
     background: #ebdbb2;
