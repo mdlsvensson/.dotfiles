@@ -44,6 +44,9 @@
       ~/.config/waybar/style.css:
           create: true
           path: config/waybar/style.css
+      ~/.config/hypr/hyprpaper.conf:
+          create: true
+          path: config/hypr/hyprpaper.conf
 
 - create:
       - ~/Files
